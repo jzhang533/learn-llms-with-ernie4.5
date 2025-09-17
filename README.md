@@ -20,7 +20,7 @@
 
 ## 第二章：分词与词向量
 
-**课件：** 分词与词向量
+**课件：** [分词与词向量](https://www.canva.cn/design/DAGv8rCIe-8/rZ-oVX2YcOGObX1EBXa3jg/view?utm_content=DAGv8rCIe-8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h22674801ac)
 
 **学习目标：**
 
@@ -40,7 +40,7 @@
 
 ## 第三章：注意力机制与 Transformer 结构
 
-**课件：** 注意力机制与 Transformer 结构
+**课件：** [注意力机制与 Transformer 结构](https://www.canva.cn/design/DAGwroOgcHw/b148P5koMVsKnIWgmAH4zg/view?utm_content=DAGwroOgcHw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h00d022d771)
 
 **学习目标：**
 
