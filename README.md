@@ -2,7 +2,7 @@
 
 ## 第一章：大语言模型概述
 
-**课件：** [大语言模型概述](./chapter01/introduction_to_llm.pdf)
+**课件：** [大语言模型概述](https://www.canva.cn/design/DAGvFYm0hPY/RQ7A7y3T-BtjsrryGP9kHA/view?utm_content=DAGvFYm0hPY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8a1b76d4e2)
 
 **学习目标：**
 
