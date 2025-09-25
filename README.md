@@ -1,6 +1,12 @@
 # 通过文心 4.5 学习大语言模型
 
-## 第一章：大语言模型概述
+## 授课记录
+
+- [2025-9 记录](./course_offerings/202509_offering.md)
+
+## 课程大纲
+
+### 第一章：大语言模型概述
 
 **课件：** [大语言模型概述](https://www.canva.cn/design/DAGvFYm0hPY/RQ7A7y3T-BtjsrryGP9kHA/view?utm_content=DAGvFYm0hPY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8a1b76d4e2)
 
@@ -18,7 +24,7 @@
 - ernie4.5-0.3b 的 base model 和 instruct model 分别计算这句话的概率，哪个概率高？为什么？
 - **进阶：** 自己实现一个 greedy search 解码器，自己的解码器的输出结果，跟调用 API 输出的结果一致。
 
-## 第二章：分词与词向量
+### 第二章：分词与词向量
 
 **课件：** [分词与词向量](https://www.canva.cn/design/DAGv8rCIe-8/rZ-oVX2YcOGObX1EBXa3jg/view?utm_content=DAGv8rCIe-8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h22674801ac)
 
@@ -38,7 +44,7 @@
 - **进阶：** 给定两句话，仅用 ernie4.5-0.3b 模型的 embedding 层，计算这两句话的相似度。
 - **进阶：** 仅用 ernie4.5-0.3b 模型的 embedding 层和 LM Head（即：删除所有的 transformer block ），使用第一章自己设计的 greedy search 解码器，让模型也可以生成文本呢。
 
-## 第三章：注意力机制与 Transformer 结构
+### 第三章：注意力机制与 Transformer 结构
 
 **课件：** [注意力机制与 Transformer 结构](https://www.canva.cn/design/DAGwroOgcHw/b148P5koMVsKnIWgmAH4zg/view?utm_content=DAGwroOgcHw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h00d022d771)
 
@@ -59,7 +65,7 @@
 - **进阶：** 仅保留 ernie4.5-0.3b-base 模型的 embedding 层和第一个 transformer block 层（Ernie4_5DecoderLayer），然后接一个可以进行二分类的 head，自己构造 10 条情感分类的数据集，训练这个改造后的模型，让它可以 overfit 你的这个数据集。
 - **进阶：** 用 encoder-decoder 模型结构从头训练一个机器翻译模型。（使用这个数据集：<https://www.manythings.org/anki/>）（hint：设计一个比较小的模型结构，这样在本地的 CPU 机器上就可以训出来）
 
-## 第四章：大语言模型的最新进展
+### 第四章：大语言模型的最新进展
 
 **课件：** 大语言模型的最新进展
 
@@ -77,7 +83,7 @@
 - 文心 4.5 多模态模型里的视觉部分的表示学习用的是什么模型结构？
 - **进阶：** 使用 ernie4.5-0.3b-base 的模型结构，但是把参数规模缩减到万分之一左右（即：总参数只有 30 万）。在一个小的数据集上（如汪峰的歌词数据），训练出来一个非常小的跟 ernie4.5-0.3b 的模型结构一致的语言模型，可以生成文本（如：随机生成汪峰的歌）。
 
-## 第五章：后训练与微调
+### 第五章：后训练与微调
 
 **课件：** 大语言模型的后训练
 
