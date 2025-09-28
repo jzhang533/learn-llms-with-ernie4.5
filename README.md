@@ -39,7 +39,7 @@
 **课后练习：**
 
 - 使用 ernie4.5-0.3b 模型的 tokenizer 输出两个给定的 token 对应的 id 。
-- ernie4.5-0.3b  模型的字典的大小是多少？embedding 层的大小是多少？
+- ernie4.5-0.3b 模型的字典的大小是多少？embedding 层的大小是多少？
 - 给定两个 token，仅用 ernie4.5-0.3b 模型的 embedding 层，计算这两个 token 的相似度（hint：使用 cosine）。
 - **进阶：** 给定两句话，仅用 ernie4.5-0.3b 模型的 embedding 层，计算这两句话的相似度。
 - **进阶：** 仅用 ernie4.5-0.3b 模型的 embedding 层和 LM Head（即：删除所有的 transformer block ），使用第一章自己设计的 greedy search 解码器，让模型也可以生成文本呢。
@@ -85,7 +85,9 @@
 
 ### 第五章：后训练与微调
 
-**课件：** 大语言模型的后训练
+**课件：** [大语言模型的后训练](slices/post-training.pdf)
+
+> 文字版见 blog：[Post-training of LLM（产品经理民科普及版）](https://pfcclab.github.io/posts/post-training-overview)
 
 **学习目标：**
 
