@@ -85,7 +85,7 @@
 
 ### 第五章：后训练与微调
 
-**课件：** [大语言模型的后训练](slices/post-training.pdf)
+**课件：** [大语言模型的后训练](./chapter05/post-training.pdf)
 
 > 文字版见 blog：[Post-training of LLM（产品经理民科普及版）](https://pfcclab.github.io/posts/post-training-overview)
 
