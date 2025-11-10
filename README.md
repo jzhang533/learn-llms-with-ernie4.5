@@ -63,7 +63,7 @@
 - 使用一个 encoder-only 模型（hint: BERT or ERNIE 3.0）计算给定的输入（如："巴黎是[MASK]的首都"，模型预测出的前 5 个 token 是什么，对应的概率是多少？
 - 使用 ernie4.5-0.3b 模型，给定一句话（如："I have a dream"），计算在当前（token（如："dream"）下，这句话中的每个 token 用第 0 个 head 上 计算出的 attention weight 是多少？
 - **进阶：** 仅保留 ernie4.5-0.3b-base 模型的 embedding 层和第一个 transformer block 层（Ernie4_5DecoderLayer），然后接一个可以进行二分类的 head，自己构造 10 条情感分类的数据集，训练这个改造后的模型，让它可以 overfit 你的这个数据集。
-- **进阶：** 用 encoder-decoder 模型结构从头训练一个机器翻译模型。（使用这个数据集：<https://www.manythings.org/anki/>）（hint：设计一个比较小的模型结构，这样在本地的 CPU 机器上就可以训出来）
+- **进阶：** 用 encoder-decoder 模型结构从头训练一个机器翻译模型。（使用这个数据集：<https://www.manythings.org/anki/>）（hint：设计一个比较小的模型结构，这样在本地的 CPU 机器上就可以训出来, 参考[范例](https://aistudio.baidu.com/projectdetail/9553418)）
 
 ### 第四章：大语言模型的最新进展
 
